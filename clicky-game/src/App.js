@@ -4,6 +4,23 @@ import Wrapper from "./components/wrapper";
 import Row from "./components/row";
 import Card from "./components/card";
 
+// const charArr = ["Ned Stark", "Arya Stark", "Sansa Stark", "Jon Snow", "Joffrey Baratheon", "Cersei Lannister", "Tyrion Lannister", "Petyr Baelish", "Daenarys Targaryen"];
+
+// class App extends React.Component {
+//     constructor(props) {
+//         super(props);
+//         this.state = {
+//             highScore: 0,
+//             currentScore: 0,
+//             lastClick: ""
+//         }
+//     }
+
+//     render() {
+//         return ()
+//     }
+// };
+
 // Define our pre-determined list of characters and empty shuffle array
 const charArr = ["Ned Stark", "Arya Stark", "Sansa Stark", "Jon Snow", "Joffrey Baratheon", "Cersei Lannister", "Tyrion Lannister", "Petyr Baelish", "Daenarys Targaryen"];
 let shuffleArr = [];
