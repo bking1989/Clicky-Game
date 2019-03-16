@@ -55,13 +55,13 @@ class App extends React.Component {
                 <Header currentScore={this.state.currentScore} highScore={this.state.highScore} />
                 <Wrapper>
                     <Row>
-                        {shuffleArr.slice(0,3).map((card) => <Card value={card} onClick={cardClick} />)}
+                        {shuffleArr.slice(0,3).map((card) => <Card value={card} key={card.toString()} onClick={cardClick} />)}
                     </Row>
                     <Row>
-                        {shuffleArr.slice(3,6).map((card) => <Card value={card} onClick={cardClick} />)}
+                        {shuffleArr.slice(3,6).map((card) => <Card value={card} key={card.toString()} onClick={cardClick} />)}
                     </Row>
                     <Row>
-                        {shuffleArr.slice(6,9).map((card) => <Card value={card} onClick={cardClick} />)}
+                        {shuffleArr.slice(6,9).map((card) => <Card value={card} key={card.toString()} onClick={cardClick} />)}
                     </Row>
                 </Wrapper>
             </div>
