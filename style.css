@@ -1,0 +1,44 @@
+div[value="Ned Stark"] {
+    background-image: url("./images/ned.png");
+    box-shadow: rgba(0,0,0,0.8) 0 0 6px;
+}
+
+div[value="Arya Stark"] {
+    background-image: url("./images/arya.png");
+    box-shadow: rgba(0,0,0,0.8) 0 0 6px;
+}
+
+div[value="Sansa Stark"] {
+    background-image: url("./images/sansa.png");
+    box-shadow: rgba(0,0,0,0.8) 0 0 6px;
+}
+
+div[value="Jon Snow"] {
+    background-image: url("./images/jon.png");
+    box-shadow: rgba(0,0,0,0.8) 0 0 6px;
+}
+
+div[value="Joffrey Baratheon"] {
+    background-image: url("./images/joffrey.png");
+    box-shadow: rgba(0,0,0,0.8) 0 0 6px;
+}
+
+div[value="Cersei Lannister"] {
+    background-image: url("./images/cersei.png");
+    box-shadow: rgba(0,0,0,0.8) 0 0 6px;
+}
+
+div[value="Tyrion Lannister"] {
+    background-image: url("./images/tyrion.png");
+    box-shadow: rgba(0,0,0,0.8) 0 0 6px;
+}
+
+div[value="Petyr Baelish"] {
+    background-image: url("./images/petyr.png");
+    box-shadow: rgba(0,0,0,0.8) 0 0 6px;
+}
+
+div[value="Daenarys Targaryen"] {
+    background-image: url("./images/daenerys.png");
+    box-shadow: rgba(0,0,0,0.8) 0 0 6px;
+}
